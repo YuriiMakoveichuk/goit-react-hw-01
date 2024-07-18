@@ -1,10 +1,12 @@
 import { useState } from 'react'
 
-import userData from '../userData.json'
-import friends from '../friends.json'
-
 import Profile from './Profile'
 import FriendList from './FriendList'
+import TransactionHistory from './TransactionHistory'
+
+import userData from '../userData.json'
+import friends from '../friends.json'
+import transactions from '../transactions.json'
 
 import './App.css'
 
@@ -18,7 +20,8 @@ function App() {
         location={userData.location}
         image={userData.avatar}
         stats={userData.stats} />
-      <FriendList friends={friends}/>
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions}/>
     </>
   )
 }

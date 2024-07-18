@@ -1,5 +1,5 @@
 import FriendListItem from "./FriendListItem";
-const FriendList = ({friends, key}) => {
+const FriendList = ({friends}) => {
   return (
     <ul className="friend-list">
       {friends.map((friend) => {

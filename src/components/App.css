@@ -1,5 +1,6 @@
 @import url('./Profile.module.css');
 @import url('./FriendList.module.css');
+@import url('./TransactionHistory.module.css');
 
 body {
   background-color: aqua;
