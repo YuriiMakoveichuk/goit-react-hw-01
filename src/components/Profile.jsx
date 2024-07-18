@@ -8,8 +8,8 @@ const Profile = ({name, tag,location,image, stats}) => {
                     alt={name}
                 />
                 <p className="profile-block-title">{name}</p>
-                <p className="profile-block-text">@{tag }</p>
-                <p className="profile-block-text">{location }</p>
+                <p className="profile-block-text">@{tag}</p>
+                <p className="profile-block-text">{location}</p>
             </div>
 
             <ul className="profile-statistics-list">

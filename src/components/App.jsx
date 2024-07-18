@@ -1,10 +1,12 @@
 import { useState } from 'react'
 
 import userData from '../userData.json'
+import friends from '../friends.json'
+
+import Profile from './Profile'
+import FriendList from './FriendList'
 
 import './App.css'
-import Profile from './Profile'
-
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +17,8 @@ function App() {
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
-        stats={userData.stats}/>
+        stats={userData.stats} />
+      <FriendList friends={friends}/>
     </>
   )
 }
