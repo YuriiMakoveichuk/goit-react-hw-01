@@ -1,7 +1,3 @@
-@import url('./Profile.module.css');
-@import url('./FriendList.module.css');
-@import url('./TransactionHistory.module.css');
-
 body {
   background-color: aqua;
 }
@@ -45,4 +41,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
